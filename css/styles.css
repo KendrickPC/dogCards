@@ -1,0 +1,60 @@
+#container {
+	border-style: solid;
+}
+
+
+.card {
+	width: 325px;
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	border-style: solid;
+	border-color: #D3D3D3;
+	border-width: 2px;
+
+	  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.animalName {
+	margin: 10px;
+	font-weight: bold;
+	font-size: 2em;
+}
+
+.image {
+	margin-left: 10px;
+}
+
+.info {
+	margin: 10px;
+	border-style: solid;
+	border-color: #D3D3D3;
+	border-width: 2px;
+	padding: 10px;
+}
+
+.italicText {
+	font-style: italic;
+}
+
+
+ul {
+/*Removes bullets from an unordered list*/
+	list-style: none;
+/*aligns text after the bullets have been removed*/
+/*http://stackoverflow.com/questions/9620594/removing-ul-indent-with-css*/
+	padding: 0;
+}
+
+li {
+	text-align: left;
+	font-style: italic;
+}
+
+span {
+	font-weight: bold;
+	
+/*font style normal courtesy of:
+http://stackoverflow.com/questions/11512323/any-way-to-remove-italic-style-from-content-inserted-using-before-class*/
+	font-style: normal;
+}
