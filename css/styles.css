@@ -43,12 +43,12 @@ ul {
     padding: 0;
 }
 
-li {
+.li {
     text-align: left;
     font-style: italic;
 }
 
-span {
+.span {
     font-weight: 700;
 /*font style normal courtesy of:
 http://stackoverflow.com/questions/11512323/any-way-to-remove-italic-style-from-content-inserted-using-before-class*/
